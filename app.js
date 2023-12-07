@@ -23,5 +23,5 @@ mongoose.connect(process.env.MONGODB_URI)
 app.use(express.json());
 app.use('/api/auth', authRoutes);
 app.get('/', (req, res) => {
-  res.send('Hello, welcome to your URL shortener backend!');
+  res.send('Hello All of you !');
 });
