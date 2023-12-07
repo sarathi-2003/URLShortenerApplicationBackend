@@ -22,10 +22,10 @@ const generateToken = (email) => {
       });
   
       const mailOptions = {
-        from: 'ragavi5901@example.com',
+        from: 'sarathi@gmail.com',
         to: email,
         subject: 'Account Activation',
-        html: `<p>Click <a href="http://localhost:5000/api/auth/activate/${activationToken}">here</a> to activate your account.</p>`,
+        html: `<p>Click <a href="http://localhost:3000/api/auth/activate/${activationToken}">here</a> to activate your account.</p>`,
       };
   
       await transporter.sendMail(mailOptions);
